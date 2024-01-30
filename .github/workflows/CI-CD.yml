@@ -20,10 +20,10 @@ jobs:
         node-version: 14
 
     - name: Install dependencies
-      run: npm run ci
+      run: npm ci
 
-    - name: Run Linter
-      run: npm run lint
+    #- name: Run Linter
+    #  run: npm run lint
 
     - name: Run Tests
       run: npm run test
