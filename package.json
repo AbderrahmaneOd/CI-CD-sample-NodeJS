@@ -8,7 +8,7 @@
     "build": "npx parcel build src/index.html --public-url https://github.com/AbderrahmaneOd/CI-CD-sample-NodeJS",
     "lint": "npx eslint src/.",
     "test": "npx jest",
-    "deploy": "npm run build && git config user.email 'abdoouaday361@gmail.com' && git config user.name 'Abderrahmane Ouaday' && GH_TOKEN=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 && npx gh-pages -d dist",
+    "deploy": "npm run build && git config user.email 'abdoouaday361@gmail.com' && git config user.name 'Abderrahmane Ouaday' && GH_TOKEN=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 && npx gh-pages -d dist",
     "cic": "npm run lint && npm run test && npm run deploy",
     "ci": "npm run test && npm run deploy"
 },
